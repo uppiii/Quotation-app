@@ -141,7 +141,7 @@ here before submitting, e.g.:
 
 ```
 Email: tester@example.com
-Password: <choose a password>
+Password: Test@1234
 ```
 
 ## Validation Rules
@@ -153,9 +153,4 @@ Password: <choose a password>
 - At least one product row is required
 - Quotation date is required
 
-## Optional / Bonus Features Not Yet Implemented
 
-Edit quotation, search/filter, PDF export, GST selection presets, and a summary dashboard are not
-included in this first pass and are natural next steps if time permits — the schema and codebase
-support adding them without structural changes (e.g. an edit page can reuse the form in
-`pages/quotations/new.js`).
